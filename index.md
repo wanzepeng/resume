@@ -1,5 +1,5 @@
 ---
-layout: 
+layout: cv
 title: 万泽鹏
 email:
   url: beatles_4@163.com
