@@ -4,9 +4,8 @@ title: 万泽鹏
 email:
   url: beatles_4@163.com
   text: beatles_4@163.com
-homepage:
-  url: beatles_4@163.com
-  text: beatles_4@163.com
+phone:
+  text: 15527694973
 ---
 
 # 万泽鹏
@@ -25,30 +24,8 @@ Supported arguments:
 
 ### **武汉文理学院** `2016.9 - 2020.6`
 
-```
+- 信息与计算机学院 计算机科学与技术
 
-```
-
-- 计算机科学与技术
-- 信息与计算机学院
-
-### **Columbia University** `2016.9 - 2018.5`
-
-```
-New York, NY
-```
-
-- B.S. in Computer Science, _Magna Cum Laude_
-- Vision, Graphics track
-
-### **Dickinson College** `2013.9 - 2016.5`
-
-```
-Carlisle, PA
-```
-
-- B.S. in Computer Science, _Summa Cum Laude_
-- Computer Science Departmental Honors
 
 ## Publications
 
