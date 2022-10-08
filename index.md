@@ -5,7 +5,7 @@ email:
   url: beatles_4@163.com
   text: beatles_4@163.com
 phone:
-  text: 15527694973
+  15527694973
 ---
 
 # 万泽鹏
@@ -19,6 +19,14 @@ Supported arguments:
 -->
 
 {% include cv-contact.html %}
+
+**政治面貌：** 党员
+
+**联系地址：** 武汉市
+
+**学历：** 本科						    	**工作经验：** 三年
+
+
 
 ## 教育经历
 
