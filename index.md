@@ -14,9 +14,9 @@ phone:
 include contact information from the front matter
 Supported arguments:
     - homepage: url, text
-    - phone
-    - email
--->
+        - phone
+        - email
+            -->
 
 {% include cv-contact.html %}
 
@@ -32,109 +32,72 @@ Supported arguments:
 
 - 信息与计算机学院 计算机科学与技术
 
+## 技术栈
+
+- 具有深厚的专业技术基础，精通Java EE相关技术，熟悉MyBatis Plus，SpringBoot，SpringCloud, Rabbit MQ等框架。
+- 熟悉分布式缓存、消息队列、分布式锁等相关技术。
+- 熟悉NIO、Netty、并发编程、Java虚拟机等。
+
 
 ## 工作经历
 
-### **DXC Technology    测试                               2019.07-2019.09**
-- 参与 DXCTechnology 与 P&G（宝洁）公司项目的测试组，负责测试 P&G 公司内部仓储物流管理系统的功能完整性，准确性，安全性。 
-  
+### **DXC Technology（武汉）    测试** `2019.07-2019.09`
+- 参与 DXC Technology（武汉） 与 P&G（宝洁）公司项目的测试组，负责测试 P&G（宝洁） 公司内部仓储物流管理系统的功能完整性，准确性，安全性。 
 
 
-### **万达信息股份有限公司    JAVA 开发              2020.05-2021.05**
--  在万达信息工作的这段时间，参与项目组中的项目、进行项目的研发。期间工作表现良好，能够在本人负责的项目中独当一面。  
+### **万达信息股份有限公司    JAVA 开发 ** `2020.05-2021.05`
+-  在万达信息工作的这段时间，参与项目组中的多个重要项目、进行项目的主力研发。期间工作表现良好，能够在本人负责的项目中独当一面。  
 
-### [**How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)
+### 北京国遥新天地信息技术股份有限公司   JAVA 开发 `2021.07-2022.06`
 
-Dor Ma'ayan\*, **Wode Ni\***, Katherine Ye, Chinmay Kulkarni, and Joshua Sunshine.<br>
-<i class="fas fa-award"></i> <strong>Best Paper Honourable Mention</strong><br>
-_In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20)._<br>
-[[PDF]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.txt)]
+- 在国遥新天地工作的这段时间，接触到了Web3D、地理信息、遥感测绘等新鲜领域。能够带领同事出色完成工作任务。
 
-### [**Defining Visual Narratives for Mathematics Declaratively**](http://2019.plateau-workshop.org/assets/papers-2019/9.pdf)
+## 项目经验
 
-Max Krieger, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
-[[PDF](http://2019.plateau-workshop.org/assets/papers-2019/9.pdf)]
-[[slides]({{ page.homepage.url }}/assets/plateau-19-presentation.pdf)]
+### 蛮牛健康APP 网上商城相关业务
 
-### [**Designing Declarative Language Tutorials: a Guided and Individualized Approach**](http://2019.plateau-workshop.org/assets/papers-2019/2.pdf)
+-  使用 Spring Cloud Aibaba 的 Nacos 作为服务注册中心与配置中心，来提供服务注册与发现。 
+-  使用 OpenFeign 来实现服务之间的调用，通过 OpenFeign 集成的 Ribbon 来实现微服务调用时的负载均 衡。  
+-  使用Rabbit MQ延迟消息队列对系统高峰业务进行流量削峰。
+- 通过 redis 来缓存购物车数据、高读少写数据。并使用 redis 作为分布式锁。
+- Nginx 作为反向代理服务器，将前端发向 Nginx 的请求代理到 Spring GateWay 网关。同时存储静态资源。  
+- 集成阿里云 OSS 服务，存储前端上传的图片等资源。前端给后端发送请求，后端对前端请求验证并返回一个签名，前端通过签名直接将图片存储到阿里云 OSS 服务器上。避免了对后端资源的占用。  
 
-Anael Kuperwajs Cohen, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
-[[PDF](http://2019.plateau-workshop.org/assets/papers-2019/2.pdf)]
-[[slides]({{ page.homepage.url }}/assets/plateau-19-presentation.pdf)]
+### 浦东新区发改委油气管道项目 
 
----
+- Web 端主要使用公司自己封装的框架 WEGOV 对项目进行开发（封装的 spring+springMVC+jpa）同时实现了后台管理相关功能。  
+- 负责项目日常维护与新功能开发，参与开发隐患自动提醒、管道巡护人员上报隐患、发改委批准第三方施工等工作流程的开发。  
+-  使用实现定时程序与大屏系统对接定时推送数据。定时检测系统，如出现风险数据则产生短信通过浦东新区短信接口发送短信。  
+- 对油气管道手机端混合 Android App 进行维护与开发。新增管道巡护人员巡检打卡等功能。
 
-### [**Substance and Style: domain-specific languages for mathematical diagrams**](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
+### 上海市文联、太湖局项目  
 
-**Wode Ni\***, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> _Domain-Specific Language Design and Implementation (DSLDI 2017), co-located with SPLASH._ <br>
-[[PDF]({{ page.homepage.url }}/assets/dsldi.pdf)]
-[[slides]({{ page.homepage.url }}/assets/dsldi-presentation.pdf)]
-[[www](http://penrose.ink)]
-[[repo](https://github.com/penrose/penrose)]
-
-### [**Whiteboard Scanning Using Super-Resolution**](http://scholar.dickinson.edu/student_honors/221/)
-
-**Wode Ni**.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF]({{ page.homepage.url }}/assets/superres.pdf)]
-
-## Experience
-
-### **Microsoft Research** `2020.5 - 2020.8`
-
-_Research Intern_<br>
-Worked with the [PROSE](https://www.microsoft.com/en-us/research/group/prose/) team (mentored by [Titus Barik](https://www.barik.net/)) on improving developer productivity in Visual Studio Code. I interviewed developers to elicit their needs for code transformation tools in editors. Inspired by the empirical data and relevant work in program synthesis, I designed **reCode**, an interaction model for rapidly performing complex code transformation using the familiar find-and-replace experience.
-
-### **Carnegie Mellon University, Research Experiences for Undergraduate** `2017.5 - 2017.8`
-
-_Research Assistant_<br>
-**Penrose** is a system that automatically visualizes mathematics using two domain-specific languages: **Substance** and **Style**. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
-
-### **Columbia University, Computer Graphics and User Interfaces Lab** `2017.1 - 2017.5`
-
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augumented Reality** project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
-
-## Mentoring
-
-[Hwei-Shin Harriman](https://hsharriman.github.io/) (Olin College of Engineering, independent research) `CMU, 2021 - Now` <br>
-[Helena Yang](https://heleaf.me/) (CMU, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2021` <br>
-[Max Krieger](https://a9.io/) (CMU, independent research & [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2018 - 2021` <br>
-[Courtney Miller](https://courtney-e-miller.github.io/) (New College of Florida, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
-[Anael Kuperwajs Cohen](https://anaelkuperwajs.github.io/) (Macalester College, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
-
----
-
-## Honors & Awards
-
-CHI'20 Best Paper Honourable Mention Award `CMU, 2020` <br>
-Phi Beta Kappa `Dickinson, 2018` <br>
-Excellence in Computer Science Award `Columbia, 2018` <br>
-Travel Award PL Mentoring Workshop (PLMW) `SPLASH, 2018` <br>
-Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
-Computer Science Departmental Honors `Dickinson, 2016` <br>
-Pi Mu Epsilon, Mathematics Honor Society `Dickinson, 2016` <br>
-Upsilon Pi Epsilon, Computer Science Honor Society `Dickinson, 2016` <br>
-Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
-John Montgomery Scholarship `Dickinson, 2013` <br>
-
-## Teaching
-
-Teaching Assistant, **Crafting Software (17-450/17-950)** `CMU, 2022` <br>
-Teaching Assistant, **Programming Languages and Translators (COMS 4115)** `Columbia, 2017 - 2018` <br>
-Teaching Assistant, **Introduction to Java II (COMP 132)** `Dickinson, 2016` <br>
-Peer Tutor, **Data Structures and Problem Solving (COMP 232)** `Dickinson, 2016` <br>
-Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
+- 负责项目信创相关改造、对项目进行国产化适配。将系统移植到国产机器、麒麟系统、DM 数据库。对项目在线预览 word 文档功能进行国产机 WPS 改造。 
 
 
-## Service
+### 松江收发文系统 
 
-Sub-reviewer `OOPSLA'21, VL/HCC'21` <br>
-Reviewer `CHI'21, CHI'22, SIGGRAPH'22` <br>
-Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2021` <br>
+- 负责松江收发文系统功能编写。通过自建 ftp 文件服务器（FileZilla Server），实现文件上传下载功能。 
+
+### 安徽（电网）数字化中心
+
+- 负责项目后端主要功能开发任务。为新同事分配任务，带领同事快速熟悉项目。与组长讨论设计项目开发结构、路线。
+- 开发客户上传压缩包、解压、读取包中excel、编排包中gim文件树、处理excel中数据转换为合适的结构与内容进行保存、解析包中gim文件转换为正确的Web3D模型在大屏页面展示、处理gim解析后的（杆塔、塔形、变电、绝缘子）等相关数据整理（SQlLite转换成Mysql并对数据进行相关处理）成对应表格在后端管理页面展示。
+- 优化基于cesium的三维地球页面加载事件，处理数据量过多时数据查询缓慢的问题。
+- 编写与客户其他数字化项目的数据推送处理相关接口。
+- 编写管理系统分权限展示页面。管理员添加页面、操作权限功能。
+- 负责处理协调客户需求，部署上线电网数字化中心项目。
+
+### 新疆电网环境安全风险预警管控平台
+
+- 编写处理新疆全省分区域、电网线路、降温、大风、地震、结冰等相关数据，判断风险等级，是否需要警报。处理警报数据供大屏展示。接受处理气候站传输的数据等接口。
+
+### 国网电力浙江项目
+
+- 负责与客户讨论需求，项目部署、测试、验收等相关工作。
+
+
 
 <!-- ### Footer
 
-Last updated: May 2013 -->
+Last updated: Oct 2022 -->
