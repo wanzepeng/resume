@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: 
 title: 万泽鹏
 email:
   url: beatles_4@163.com
@@ -24,9 +24,7 @@ Supported arguments:
 
 **联系地址：** 武汉市
 
-**学历：** 本科						    	**工作经验：** 三年
-
-
+**学历：** 本科	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	**工作年限：** 三年
 
 ## 教育经历
 
@@ -35,24 +33,15 @@ Supported arguments:
 - 信息与计算机学院 计算机科学与技术
 
 
-## Publications
+## 工作经历
 
-### [**reCode: A Lightweight Find-and-Replace Interaction in the IDE for Transforming Code by Example**]({{ page.homepage.url }}/assets/uist-21-recode.pdf)
-**Wode Ni**, Joshua Sunshine, Vu Le, Sumit Gulwani, and Titus Barik.<br> 
-_In Proceedings of the 34th ACM Symposium on User Interface Software and Technology (UIST'21)._ <br>
-[[PDF]({{ page.homepage.url }}/assets/uist-21-recode.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/uist-21-recode.txt)]
-[[video preview](https://youtu.be/fMdHK9UrgQ4)]
-[[talk](https://youtu.be/_GQ8E7EMMws)]
+### **DXC Technology    测试                               2019.07-2019.09**
+- 参与 DXCTechnology 与 P&G（宝洁）公司项目的测试组，负责测试 P&G 公司内部仓储物流管理系统的功能完整性，准确性，安全性。 
+  
 
 
-### [**Penrose: From Mathematical Notation to Beautiful Diagrams**](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)
-Katherine Ye, **Wode Ni**, Max Krieger, Dor Ma'ayan, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> 
-_ACM Transactions on Graphics (SIGGRAPH'20)._<br>
-[[PDF](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/siggraph20-penrose.txt)]
-[[www](http://penrose.ink/siggraph20.html)]
-[[repo](https://github.com/penrose/penrose)]
+### **万达信息股份有限公司    JAVA 开发              2020.05-2021.05**
+-  在万达信息工作的这段时间，参与项目组中的项目、进行项目的研发。期间工作表现良好，能够在本人负责的项目中独当一面。  
 
 ### [**How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)
 
