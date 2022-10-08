@@ -1,15 +1,15 @@
 ---
 layout: cv
-title: Wode "Nimo" Ni
+title: 万泽鹏
 email:
-  url: mailto:woden@cs.cmu.edu
-  text: woden@cs.cmu.edu
+  url: beatles_4@163.com
+  text: beatles_4@163.com
 homepage:
-  url: http://cs.cmu.edu/~woden
-  text: cs.cmu.edu/~woden
+  url: beatles_4@163.com
+  text: beatles_4@163.com
 ---
 
-# Wode **Ni**
+# 万泽鹏
 
 <!--
 include contact information from the front matter
@@ -21,16 +21,16 @@ Supported arguments:
 
 {% include cv-contact.html %}
 
-## Education
+## 教育经历
 
-### **Carnegie Mellon University** `2018.9 -`
+### **武汉文理学院** `2016.9 - 2020.6`
 
 ```
-Pittsburgh, PA
+
 ```
 
-- Ph.D. in Software Engineering
-- Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/)
+- 计算机科学与技术
+- 信息与计算机学院
 
 ### **Columbia University** `2016.9 - 2018.5`
 
